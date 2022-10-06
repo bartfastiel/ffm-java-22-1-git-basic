@@ -4,5 +4,13 @@ public class Main {
         System.out.println("Bye everybody!");
         System.out.println("Hello Daniel");
         System.out.println("Hello Florian!");
+
+        System.out.println(subtract(9, 4));
+    }
+
+    public static int subtract(int value, int value2) {
+        int result = value - value2;
+
+        return result;
     }
 }
