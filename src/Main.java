@@ -9,8 +9,7 @@ public class Main {
     }
 
     public static int subtract(int value, int value2) {
-        int result = value - value2;
 
-        return result;
+        return value - value2;
     }
 }
